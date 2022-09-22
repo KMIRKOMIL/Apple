@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(..//font/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(..//font/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(..//font/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background: #282828;
+    /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25); */
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+}
+.nav__list{
+    display: flex;
+    gap: 30px;
+}
+.nav__link{
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.nav__icon{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header__bottom{
+    background: url(../img/Header-bottom.png) no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom__title{
+    font-family: 'Prosto One', cursive;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin-bottom: 38px;
+    padding-top: 204px;
+}
+.btn{
+    font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   text-transform: uppercase;
+   color: #171718;
+   background: #FFFFFF;
+   border-radius: 10px;
+   padding: 13px 14px;
+}
+.bottob__btn{
+    padding-bottom: 281px;
+}
+.main{
+    background-color: #151515; 
+    padding-top: 30px;
+}
+.sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.s1txt{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 538px;
+    height: 135px;
+}
+.s2txt{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 540px;
+    height: 107px;
+}
+.s3txt1{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    width: 333px;
+    height: 120px;
+}
+.s3txt2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 333px;
+    height: 144px;
+}
+.insec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 15px 47px;
+    width: 255px;
+    height: 312px;
+    margin-top: 29px;
+    margin-bottom: 55px;
+}
+.iPhone{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.price{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 10px;
+}
+.i1{
+    width: 127.5px;
+    height: 167px;
+    align-self: center;
+}
+.i2{
+    width: 99px;
+    height: 167px;
+    align-self: center;
+}
+.i3{
+    width: 103.42px;
+    height: 167px;
+    align-self: center;
+}
+.i4{
+    width: 109.7px;
+    height: 167px;
+    align-self: center;
+}
+.view{
+    display: inline-block;
+    background: #151515;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 7px 57px;
+    margin-top: 20px;
+    transition: .5;
+}
+.view:hover{
+    background: #000000;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.nav__link2{
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.nav__icon2{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.link2{
+    display: flex;
+    gap: 30px;
+}
